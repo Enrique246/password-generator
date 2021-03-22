@@ -28,7 +28,7 @@ THEN the password is either displayed in an alert or written to the page
 - What did you learn?
   - Structure of JavaScript
   - Functions
-  - Fatarrow
+  - Fat Arrow
   - "For" Loops
   - EventListener
   - Methods,Objects,Variables (const,let,var)

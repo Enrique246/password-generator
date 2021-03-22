@@ -12,6 +12,7 @@ var special;
 // {
 //   console.log ("Everything is true")
 // }
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -50,7 +51,7 @@ function generatePassword (lower, upper, number, symbol, length){
     return finalPassword;
   }
     
-
+// Random functions
   function getRandomLower() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
   }
@@ -101,7 +102,7 @@ document.getElementById ("generate").onclick = function() {
   }
 
 }
-  
+  // Function for number length prompt
   function promlen() {
  
     while (!(passLength >= 8 && passLength <= 128)) {
@@ -114,16 +115,3 @@ document.getElementById ("generate").onclick = function() {
     }
 }
   
-
-
-  // while (promlen < 8 || promlen > 128) {
-    // passLength = prompt("Length must be 8-128 characters. How many characters would you like your password to be?");}
-  
-
-// document.getElementById("button").onclick = function() {
-//   confirm("Great to see you," + " " + prompt("What's Your Name"));
-// };
-// var plength = prompt("How many characters would you like your password to be?");
-
-//   while (plength < 8 || plength > 128) {
-//     plength = prompt("Length must be 8-128 characters. How many characters would you like your password to be?");
